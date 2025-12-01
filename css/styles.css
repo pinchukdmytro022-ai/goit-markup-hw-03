@@ -220,4 +220,7 @@ h1, h2, h3, h4, h5, h6,p{
 
 .container-effective-sol{
     width: 1158px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
 }
