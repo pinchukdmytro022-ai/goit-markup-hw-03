@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6,p{
     margin: 0;
 }
 
+img{
+    display: block;
+}
+
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -102,7 +106,8 @@ h1, h2, h3, h4, h5, h6,p{
     text-align: center;
     color: #fff;
     margin: 0;
-    padding-top: 188px;
+    padding: 188px 0;
+    max-width: 496px;
 }
 
 .section-effective-sol-button{
@@ -114,7 +119,12 @@ h1, h2, h3, h4, h5, h6,p{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer;     
+    cursor: pointer; 
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 :hover.section-effective-sol-button{
@@ -137,6 +147,7 @@ h1, h2, h3, h4, h5, h6,p{
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .title-three{
@@ -145,6 +156,7 @@ h1, h2, h3, h4, h5, h6,p{
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .paragraph{
@@ -157,6 +169,7 @@ h1, h2, h3, h4, h5, h6,p{
 
 .section-our-team{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .footer-line{
@@ -185,6 +198,8 @@ h1, h2, h3, h4, h5, h6,p{
 
 .our-team-li{
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .container-header{
@@ -223,4 +238,31 @@ h1, h2, h3, h4, h5, h6,p{
     margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-one-list{
+    display: flex;
+    gap: 24px;
+}
+
+.section-one-item{
+    width: calc((100% - 72px) / 4);
+}
+
+.our-team-list{
+    display: flex;
+    gap: 24px;
 }
