@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6,p{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
 }
 
 .section-effective-sol-button{
@@ -113,6 +114,7 @@ h1, h2, h3, h4, h5, h6,p{
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    padding-bottom: 48px;
 }
 
 :hover.section-effective-sol-button{
@@ -214,4 +216,8 @@ h1, h2, h3, h4, h5, h6,p{
 .contacts-list{
     display: flex;
     align-items: center;
+}
+
+.container-effective-sol{
+    width: 1158px;
 }
