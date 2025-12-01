@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6,p{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin: 0;
     padding-top: 188px;
 }
 
@@ -113,8 +114,7 @@ h1, h2, h3, h4, h5, h6,p{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer;
-    padding-bottom: 48px;
+    cursor: pointer;     
 }
 
 :hover.section-effective-sol-button{
