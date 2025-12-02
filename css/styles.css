@@ -157,6 +157,7 @@ img{
     font-weight: 500;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .paragraph{
@@ -165,6 +166,7 @@ img{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .section-our-team{
@@ -174,6 +176,7 @@ img{
 
 .footer-line{
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-footer{
@@ -184,12 +187,15 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .foot-paragraph{
     color: #f4f4fd;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    max-width: 264px;
 }
 
 .logo-studio-sec{
@@ -266,3 +272,29 @@ img{
     display: flex;
     gap: 24px;
 }
+
+.our-team-card{
+    padding: 32px 0;
+}
+
+.section-our-portfolio{
+    padding: 120px 0 120px 0;
+}
+
+.our-portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.our-portfolio-li{
+    width: calc((100% - 48px) / 3);
+}
+
+.our-portfolio-card{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
