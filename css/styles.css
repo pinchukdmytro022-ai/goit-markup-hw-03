@@ -137,6 +137,7 @@ img{
 
 .section-effective-sol{
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .title {
@@ -210,17 +211,14 @@ img{
 
 .container-header{
     max-width: 1158px;
-    padding-left: 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-}
-
-.container-header{
-    display: flex;
-    align-items: center;
 }
 
 .header-nav{
@@ -257,6 +255,10 @@ img{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.section-one{
+    padding: 120px 0;
 }
 
 .section-one-list{
