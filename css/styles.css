@@ -58,11 +58,11 @@ img{
     list-style-type: none;
 }
 
-:hover.nav-item{
+.nav-item:hover{
     color: #404bbf
 }
 
-:focus.nav-item{
+.nav-item:focus{
     color: #404bbf
 }
 
@@ -97,11 +97,11 @@ img{
     margin-left: auto;
 }
 
-:hover.contacts-link{
+.contacts-link:hover{
     color: #404bbf
 }
 
-:focus.contacts-link{
+.contacts-link:focus{
     color: #404bbf
 }
 
@@ -111,8 +111,8 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin: 0;
-    padding: 188px 0;
+    margin: 0 auto;
+    margin-bottom: 48px;
     max-width: 496px;
 }
 
@@ -120,7 +120,6 @@ img{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
     background-color: #4d5ae5;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -150,7 +149,7 @@ img{
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11111;
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-align: center;
@@ -160,7 +159,7 @@ img{
 
 .title-three{
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
@@ -170,7 +169,7 @@ img{
 
 .paragraph{
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
@@ -283,7 +282,7 @@ img{
 }
 
 .our-team-card{
-    padding: 32px 0;
+    padding: 32px 24px;
 }
 
 .section-our-portfolio{
