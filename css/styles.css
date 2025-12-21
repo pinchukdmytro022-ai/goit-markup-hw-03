@@ -164,7 +164,7 @@ img{
     font-weight: 500;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
 }
 
 .paragraph{
@@ -173,7 +173,7 @@ img{
     color: #434455;
     font-weight: 400;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-align: left;
 }
 
 .section-our-team{
@@ -304,9 +304,4 @@ img{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-}
-
-.our-portfolio-card .title-three,
-.our-portfolio-card .paragraph {
-    text-align: left;
 }
