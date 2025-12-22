@@ -134,11 +134,11 @@ img{
     padding: 16px 32px;
 }
 
-:hover.section-effective-sol-button{
+.section-effective-sol-button:hover{
     background-color: #404bbf;
 }
 
-:focus.section-effective-sol-button{
+.section-effective-sol-button:focus{
     background-color: #404bbf;
 }
 
@@ -242,11 +242,6 @@ img{
     display: flex;
     align-items: center;
     gap: 40px;
-}
-
-.contacts-list{
-    display: flex;
-    align-items: center;
 }
 
 .container-effective-sol{
